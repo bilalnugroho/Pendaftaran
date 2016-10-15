@@ -1,14 +1,18 @@
 # Pendaftaran
 
-Tugas blbalb
+Tugas PPB 001
 
 #identitas
 
-nama
+nama : Bilal Sapto Nugroho
 
-nis
+kelas/absen : XIIRPL5/10
 
-kelas
+#penjelasan
+Aplikasi berisi form pendaftaran organisasi.
+Ketika di submit data akan muncul pada halaman tersebut.
+Ketika form nama tidak diisi maka akan muncul notif error/harus diisi.
 
 #Screenshot
-![il_fullxfull 693265762_7pjs](https://cloud.githubusercontent.com/assets/22608303/19384317/e189efc0-9232-11e6-82d3-860caff160dd.jpg)
+![photo511287372821932584](https://cloud.githubusercontent.com/assets/22608303/19411794/31c92dde-9332-11e6-92b6-ce009cbf2d34.jpg)
+![photo511287372821932583](https://cloud.githubusercontent.com/assets/22608303/19411795/31d7a468-9332-11e6-8732-b82509ca0708.jpg)
