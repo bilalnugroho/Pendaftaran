@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     String gender = null;
     CheckBox dasar, menengah, kosong;
 
-    String hasilcb = "";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,7 +59,8 @@ public class MainActivity extends AppCompatActivity {
             } else if (pr.isChecked()) {
                 gender = pr.getText().toString();
             }
-
+            String hasilcb = "";
+            int panjang = hasilcb.length();
             if (dasar.isChecked()) {
                 hasilcb += "-" + dasar.getText().toString() + "\n";
             }
@@ -68,6 +69,9 @@ public class MainActivity extends AppCompatActivity {
             }
             if (kosong.isChecked()) {
                 hasilcb += "-" + kosong.getText().toString() + "\n";
+            }
+            if (hasilcb.length() == panjang) {
+                hasilcb += "";
             }
 
             tvHasil.setText("Nama " + name + "\nAlamat " + alam + "\nJurusan " + spKelas.getSelectedItem().toString() + "\nJenis Kelamin "
