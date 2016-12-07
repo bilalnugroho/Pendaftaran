@@ -7,12 +7,10 @@
 * Sekolah : **SMK Telkom Malang**
 
 ***
-
-**Penjelasan**
+**Penjelasan**  
 Aplikasi berisi form pendaftaran organisasi.
 Ketika di submit data akan muncul pada halaman tersebut.
 Ketika form nama tidak diisi maka akan muncul notif error/harus diisi.
-
 ***
 **Screenshot**
 ![photo511287372821932584](https://cloud.githubusercontent.com/assets/22608303/19411794/31c92dde-9332-11e6-92b6-ce009cbf2d34.jpg)
